@@ -1,0 +1,73 @@
+body {
+	background-color: #182232;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#hero {
+	background-image: url(./img/backgroundHero.jpg);
+	background-position: 50% 15%;
+	height: 95vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#content-hero {
+	background-color: rgba(0, 0, 0, 0.669);
+	padding: 10vh;
+	text-align: center;
+}
+#buscador {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5% 20% 5% 20%;
+}
+#buscador h3 {
+	background-color: rgba(0, 0, 0, 0.64);
+	width: fit-content;
+	padding: 2%;
+	border-radius: 5%;
+}
+
+hr {
+	opacity: 1;
+	width: 80vw;
+	margin-left: 10%;
+}
+
+.carousel-inner {
+	height: 70vh;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	background-color: black;
+	width: 5%;
+}
+footer {
+	font-size: 20px;
+	height: 10vh;
+	background-color: black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#top-btn {
+	background: transparent;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+}
+
+#top-btn img {
+	height: 10vh;
+}

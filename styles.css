@@ -10,6 +10,8 @@ a {
 
 #hero {
 	background-image: url(./img/backgroundHero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: 50% 15%;
 	height: 95vh;
 	display: flex;
@@ -41,10 +43,6 @@ hr {
 	margin-left: 10%;
 }
 
-.carousel-inner {
-	height: 70vh;
-}
-
 .carousel-control-prev,
 .carousel-control-next {
 	background-color: black;
@@ -70,4 +68,7 @@ footer {
 
 #top-btn img {
 	height: 10vh;
+}
+.carousel-item img {
+	width: auto;
 }

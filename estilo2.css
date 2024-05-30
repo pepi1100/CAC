@@ -1,0 +1,61 @@
+#todo {
+	background-image: url(fondo.jpg);
+	height: 100vh;
+}
+
+#a_r {
+	text-decoration: none;
+}
+
+#content-todo {
+	background-color: rgb(42, 42, 42);
+	align-content: center;
+	margin: 0 auto;
+	width: 30%;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+	height: 80vh;
+    min-width: 300px;
+}
+
+#error1 {
+    margin-top: 1%;
+    color: red;
+}
+
+#error2 {
+    margin-top: 1%;
+    color: red;
+}
+
+input {
+	border-radius: 20px;
+	padding: 0px 20px;
+	width: 80%;
+	border: 2px solid #70a4f1;
+	background-color: #333333;
+	height: 40px;
+	margin-left: 2.5%;
+	margin-top: 3%;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h6 {
+    margin-top: 2.5%;
+    color:#525151
+}
+
+button {
+    margin-top: 3%; 
+    width: 70%; 
+    height: 60px;
+    border-radius: 10px;
+    background-color: #7653d6;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}

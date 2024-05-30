@@ -10,7 +10,7 @@
 h3 {
 	margin-top: 40px;
 	margin-bottom: 20px;
-	font-weight: bold;
+	font-size: 40px;
 }
 
 #content-todo {
@@ -22,6 +22,13 @@ h3 {
 	color: white;
 	border-radius: 10px;
 	height: 80vh;
+	min-width: 300px;
+	min-height: 700px
+}
+
+h6 {
+    margin-top: 2.5%;
+    color:#525151
 }
 
 input {
@@ -32,7 +39,7 @@ input {
 	background-color: #333333;
 	height: 40px;
 	margin-left: 2.5%;
-	margin-top: 2.5%;
+	margin-top: 3%;
 }
 
 select {
@@ -40,6 +47,10 @@ select {
 	padding: 0px 20px;
 	width: 80%;
 	height: 40px;
+	margin-left: 2.5%;
+	margin-top: 3%;
+	border: 2px solid #70a4f1;
+	background-color: #333333;
 }
 
 #paises {
@@ -66,4 +77,34 @@ label {
 
 header {
 	height: 10vh;
+}
+
+#error1 {
+    margin-top: 1%;
+    color: red;
+}
+
+#error2 {
+    margin-top: 1%;
+    color: red;
+}
+
+#error3 {
+    margin-top: 1%;
+    color: red;
+}
+
+#error4 {
+    margin-top: 1%;
+    color: red;
+}
+
+#error5 {
+    margin-top: 1%;
+    color: red;
+}
+
+#error6 {
+    margin-top: 1%;
+    color: red;
 }

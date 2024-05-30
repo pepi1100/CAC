@@ -3,6 +3,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Registro</title>
+	<script src="registro_scrp.js"></script>
 	<link
 		href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
 		rel="stylesheet"
@@ -14,16 +15,16 @@
 		<div id="todo">
 			<header>
 				<a id="a_r" href="index.html"
-					><h2 style="color: white; margin-left: 2.5%">
+					><h2 style="color: white; margin-left: 2.5%; padding-top: 2.5%;">
 						Gamestop CAC
 					</h2></a
 				>
 			</header>
 			<section id="content-todo">
-				<h3 style="text-align: left; padding-left: 10%">Registro</h3>
+				<h3 style="text-align: left; padding-left: 10%;">Registro</h3>
 				<form
 					name="frm-usuarios"
-					methos="post"
+					method="post"
 					enctype="multipart/form-data"
 					class="inputs"
 				>
@@ -31,40 +32,43 @@
 						type="text"
 						name="nombre"
 						id="nombre"
-						required
-						placeholder="Nombre"
+						required placeholder="Nombre"
+						style="color: blanchedalmond"
 					/>
+					<div class="error3" id="error3"></div>
 					<input
 						type="text"
 						name="apellido"
 						id="apellido"
-						required
-						placeholder="Apellido"
-						style="margin-bottom: 10px; margin-top: 10px"
+						required placeholder="Apellido"
+						style="color: blanchedalmond"
 					/>
+					<div class="error4" id="error4"></div>
 					<input
 						type="text"
 						name="email"
 						id="email"
-						required
-						placeholder="Email"
-						style="margin-bottom: 10px; margin-top: 10px"
+						required placeholder="Email"
+						style="color: blanchedalmond"
 					/>
+					<div class="error1" id="error1"></div>
 					<input
 						type="text"
 						name="contraseña"
 						id="contraseña"
-						required
-						placeholder="Contraseña"
-						style="margin-bottom: 10px; margin-top: 10px"
+						required placeholder="Contraseña"
+						style="color: blanchedalmond"
 					/>
+					<div class="error2" id="error2"></div>
+				</form>
 					<input
 						type="date"
 						name="f_nacimiento"
 						id="f_nacimiento"
-						style="margin-bottom: 10px; margin-top: 10px"
+						style="color: blanchedalmond"
 					/>
-					<select id="paises" name="Pais">
+					<div class="error5" id="error5"></div>
+					<select id="paises" name="Pais" style="color: blanchedalmond">
 						<option value="Argentina">Argentina</option>
 						<option value="Brasil">Bolivia</option>
 						<option value="Uruguay">Brasil</option>
@@ -76,8 +80,8 @@
 						<option value="Uruguay">Uruguay</option>
 						<option value="Uruguay">Venezuela</option>
 					</select>
-					<div id="terminos">
-						<label for="TyC">Acepto términos y condiciones</label>
+					<div id="terminos" style="margin-top: 2.5%;">
+						<label id="TyC">Acepto términos y condiciones</label>
 						<input
 							type="checkbox"
 							name="TyC"
@@ -85,10 +89,13 @@
 							style="height: auto"
 						/>
 					</div>
+					<div class="error6" id="error6"></div>
 
 					<br />
-					<button class="btn btn-primary">Registrarse</button>
+					<button class="btn btn-primary" onclick="message()">Registrarse</button>
 				</form>
+				<br/>
+                <a href="Inicio_sesion.html" style="text-decoration: none"><h6>Iniciar sesion</h6></a>
 			</section>
 		</div>
 
